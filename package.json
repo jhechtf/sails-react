@@ -1,0 +1,35 @@
+{
+  "name": "sails-angular",
+  "private": true,
+  "version": "0.0.1",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "ect": "^0.5.9",
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.13",
+    "sails-disk": "~0.10.9",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js",
+    "webpack" : "webpack"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/sails-angular.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": "",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
