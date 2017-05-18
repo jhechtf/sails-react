@@ -1,5 +1,4 @@
 const webpackConfig = require('../webpack.config');
-console.log(webpackConfig);
 
 module.exports = function(grunt) {
   grunt.config.set('webpack',{

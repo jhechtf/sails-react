@@ -33,5 +33,8 @@
     "url": "git://github.com/ubuntu/test.git"
   },
   "author": "ubuntu",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
 }
